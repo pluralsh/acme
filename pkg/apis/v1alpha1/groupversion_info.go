@@ -14,9 +14,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-// Package v1alpha1 contains API Schema definitions for the vpn v1alpha1 API group
+// Package v1alpha1 contains API Schema definitions for the plural acme v1alpha1 API group
 // +kubebuilder:object:generate=true
-// +groupName=dash.plural.sh
+// +groupName=acme.plural.sh
 package v1alpha1
 
 import (

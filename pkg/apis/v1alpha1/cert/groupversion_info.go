@@ -14,19 +14,20 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-// Package v1alpha1 contains API Schema definitions for the plural acme v1alpha1 API group
+// Package cert contains API Schema definitions for the plural acme v1alpha1 API group
 // +kubebuilder:object:generate=true
-// +groupName=acme.plural.sh
-package v1alpha1
+// +groupName=webhook.acme.cert-manager.io
+package cert
 
 import (
+	"github.com/cert-manager/cert-manager/pkg/acme/webhook/apis/acme"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"sigs.k8s.io/controller-runtime/pkg/scheme"
 )
 
 var (
 	// GroupVersion is group version used to register these objects
-	GroupVersion = schema.GroupVersion{Group: "acme.plural.sh", Version: "v1alpha1"}
+	GroupVersion = schema.GroupVersion{Group: acme.GroupName, Version: "v1alpha1"}
 
 	// SchemeBuilder is used to add go types to the GroupVersionKind scheme
 	SchemeBuilder = &scheme.Builder{GroupVersion: GroupVersion}

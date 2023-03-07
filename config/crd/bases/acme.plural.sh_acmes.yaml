@@ -15,7 +15,7 @@ spec:
     singular: acme
   scope: Cluster
   versions:
-  - name: v1alpha1
+  - name: acme
     schema:
       openAPIV3Schema:
         properties:

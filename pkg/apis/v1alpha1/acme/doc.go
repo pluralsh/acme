@@ -1,5 +1,5 @@
 /*
-Copyright 2020 The cert-manager Authors.
+Copyright 2022.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -14,11 +14,6 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-// +groupName=webhook.acme.cert-manager.io
+// +groupName=acme.plural.sh
 
-// Package acme contains type definitions for ACME ChallengePayload resources
 package acme
-
-const (
-	GroupName = "webhook.acme.cert-manager.io"
-)

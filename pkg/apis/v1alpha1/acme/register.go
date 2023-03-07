@@ -1,4 +1,4 @@
-package v1alpha1
+package acme
 
 import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
